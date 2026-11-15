@@ -10,13 +10,19 @@
 
 ## 安装到 Codex
 
-使用 Node.js 22.20+，从 GitHub 安装到当前项目。
+使用 Node.js 22.20+。全局安装后，可在多个 Codex 项目中使用。
+
+```bash
+npx skills add stackonward/stackonward-skills --skill ios-app-delivery --agent codex --global
+```
+
+仅在当前项目使用时，可在项目根目录执行项目级安装。
 
 ```bash
 npx skills add stackonward/stackonward-skills --skill ios-app-delivery --agent codex
 ```
 
-跨项目使用时，在命令末尾添加 `--global`。已有本地仓库副本时，在仓库根目录运行 `npx skills add . --skill ios-app-delivery --agent codex`。
+已有本地仓库副本时，在仓库根目录运行 `npx skills add . --skill ios-app-delivery --agent codex`。
 
 首次通过 ZIP 安装时，将 `ios-app-delivery` 目录解压到 Codex 的用户技能目录。
 
