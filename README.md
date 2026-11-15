@@ -48,6 +48,8 @@ stackonward --version
 
 ## 从这里开始
 
+准备上架或更新版本时，按 [187 项 iOS App 上架检查清单](skills/ios-app-delivery/references/ios-app-delivery-checklist.md) 核对适用条件和通过标准。
+
 新项目可先复制完整的 `delivery/apple/` 交付目录，再填写自己的配置与文案。[模板和 JSON 示例](skills/ios-app-delivery/references/00-start-from-template.md)
 
 1. [开发者账号、工具和私有凭据](skills/ios-app-delivery/references/01-accounts-and-tools.md)

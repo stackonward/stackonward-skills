@@ -97,6 +97,8 @@ stackonward apple handoff --manifest "$IOS_MANIFEST" --account "$IOS_ACCOUNT" \
 
 ## 7.5 最后由人完成的验收
 
+完整的发布前后核对项见 [187 项 iOS App 上架检查清单](ios-app-delivery-checklist.md)。
+
 | 范围 | 检查内容 |
 | --- | --- |
 | 账号 | 正确主体、有效会员、人员权限及适用协议；需要时核对税务和银行 |
