@@ -1,0 +1,12 @@
+{
+  "capabilities": {
+    "signInWithApple": true,
+    "pushNotifications": true,
+    "inAppPurchase": true
+  },
+  "apns": {
+    "name": "Your App Production Push",
+    "environment": "production",
+    "scope": "team"
+  }
+}

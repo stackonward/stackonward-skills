@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "primaryCategory": "UTILITIES",
+    "secondaryCategory": "PRODUCTIVITY",
+    "copyright": "2026 Your Company",
+    "ageRatingFile": "declarations/age-rating.json",
+    "licenseAgreementFile": "declarations/license-agreement.json",
+    "contentRightsDeclaration": "DOES_NOT_USE_THIRD_PARTY_CONTENT",
+    "serverNotifications": {
+      "production": { "url": "https://api.example.com/apple/notifications", "version": "V2" },
+      "sandbox": { "url": "https://sandbox-api.example.com/apple/notifications", "version": "V2" }
+    }
+  }
+}

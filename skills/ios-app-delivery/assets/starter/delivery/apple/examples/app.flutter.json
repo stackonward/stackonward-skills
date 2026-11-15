@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "bundleId": "com.example.yourapp",
+    "name": "Your App",
+    "platform": "IOS",
+    "sku": "your-app-ios",
+    "primaryLocale": "en-US"
+  },
+  "capabilities": {},
+  "metadata": {
+    "localizations": [
+      {
+        "locale": "en-US",
+        "file": "metadata/en-US.json"
+      }
+    ],
+    "primaryCategory": "UTILITIES",
+    "copyright": "2026 Your Company"
+  },
+  "release": {
+    "version": "1.0",
+    "buildNumber": "1",
+    "mode": "MANUAL",
+    "firstPurchaseTypes": [],
+    "reviewItems": {
+      "includeApp": true,
+      "productIds": [],
+      "groupKeys": []
+    }
+  },
+  "signing": {
+    "storageUrl": "https://example.com/private-signing.git",
+    "profileType": "appstore",
+    "bundleIds": [
+      "com.example.yourapp"
+    ],
+    "readonly": true
+  },
+  "build": {
+    "kind": "flutter",
+    "projectRoot": "../..",
+    "projectPath": "ios/Runner.xcodeproj",
+    "workspace": "ios/Runner.xcworkspace",
+    "targetName": "Runner",
+    "scheme": "Runner",
+    "configuration": "Release",
+    "additionalTargets": [],
+    "flutterVersion": "3.35.0",
+    "xcodeVersion": "26.1",
+    "publicDefinesFile": "config/public.release.json",
+    "infoPlistPath": "ios/Runner/Info.plist",
+    "entitlementsPath": "ios/Runner/Runner.entitlements",
+    "iconSetPath": "ios/Runner/Assets.xcassets/AppIcon.appiconset",
+    "outputPath": "build/apple"
+  }
+}

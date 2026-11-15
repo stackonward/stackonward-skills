@@ -1,0 +1,29 @@
+name: 问题报告
+description: 报告技能安装、教程步骤或示例配置的问题。
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: 技能及版本
+      placeholder: ios-app-delivery，技能版本或提交，StackOnward CLI 1.10.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 填写使用的 Agent、系统和相关工具版本。
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 提供脱敏后的命令和最小配置。请从示例文件中移除密钥、账号、回执与签名 URL。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+      description: 附上适用的 CLI 错误码或脱敏输出。
+    validations:
+      required: true

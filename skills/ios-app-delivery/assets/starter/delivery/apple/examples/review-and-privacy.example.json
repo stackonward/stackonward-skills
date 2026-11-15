@@ -1,0 +1,14 @@
+{
+  "review": {
+    "credentialsRef": "/absolute/path/to/private/review-credentials.json",
+    "notesFile": "review/notes.txt",
+    "attachments": []
+  },
+  "privacy": { "file": "declarations/privacy.json" },
+  "declarations": [
+    { "code": "privacy", "file": "declarations/submission.md", "confirmed": false, "evidence": "operator-attestation", "consoleUrl": "https://appstoreconnect.apple.com/" },
+    { "code": "encryption", "file": "declarations/submission.md", "confirmed": false, "evidence": "operator-attestation", "consoleUrl": "https://appstoreconnect.apple.com/" },
+    { "code": "contentRights", "file": "declarations/submission.md", "confirmed": false, "evidence": "operator-attestation", "consoleUrl": "https://appstoreconnect.apple.com/" },
+    { "code": "regionalCompliance", "file": "declarations/submission.md", "confirmed": false, "evidence": "operator-attestation", "consoleUrl": "https://appstoreconnect.apple.com/" }
+  ]
+}

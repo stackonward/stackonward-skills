@@ -1,0 +1,50 @@
+{
+  "availability": {
+    "territories": ["USA"],
+    "availableInNewTerritories": false
+  },
+  "appPricing": {
+    "baseTerritory": "USA",
+    "prices": [{ "territory": "USA", "customerPrice": "0.00", "currency": "USD" }]
+  },
+  "catalog": {
+    "groups": [
+      {
+        "key": "membership",
+        "name": "Membership",
+        "localizations": [{ "locale": "en-US", "name": "Membership" }]
+      }
+    ],
+    "items": [
+      {
+        "kind": "CONSUMABLE",
+        "productId": "com.example.yourapp.credits",
+        "name": "Credits",
+        "baseTerritory": "USA",
+        "localizations": [{ "locale": "en-US", "name": "Credits", "description": "Describe what the purchase provides." }],
+        "reviewNote": "Describe how to reach and test the purchase.",
+        "reviewScreenshot": "artwork/credits-review.png",
+        "prices": [{ "territory": "USA", "customerPrice": "0.99", "currency": "USD" }],
+        "availability": { "territories": ["USA"], "availableInNewTerritories": false }
+      },
+      {
+        "kind": "subscription",
+        "productId": "com.example.yourapp.membership.monthly",
+        "name": "Monthly Membership",
+        "groupKey": "membership",
+        "duration": "ONE_MONTH",
+        "level": 1,
+        "familySharable": false,
+        "localizations": [
+          { "locale": "en-US", "name": "Monthly Membership", "description": "Describe the membership benefits." }
+        ],
+        "promotionalImage": "artwork/membership-promotion.png",
+        "reviewScreenshot": "artwork/membership-review.png",
+        "prices": [{ "territory": "USA", "customerPrice": "3.99", "currency": "USD", "preserveCurrentPrice": true }],
+        "availability": { "territories": ["USA"], "availableInNewTerritories": false },
+        "offers": []
+      }
+    ],
+    "gracePeriod": { "optIn": false, "sandboxOptIn": false, "duration": "THREE_DAYS", "renewalType": "ALL_RENEWALS" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "app-website",
+  "profile": "static-files",
+  "source": {
+    "verify": { "executable": "pnpm", "args": ["check"] },
+    "build": {
+      "executable": "pnpm",
+      "args": ["exec", "nuxt", "generate", "--dotenv", ".env.production"]
+    },
+    "output": ".output/public"
+  },
+  "environments": {
+    "production": {
+      "target": "ssh-directory",
+      "root": "/srv/app-website",
+      "rollout": { "strategy": "atomic-link" },
+      "health": {
+        "url": "https://app.example.com/legal/privacy",
+        "method": "GET",
+        "expectedStatus": 200,
+        "attempts": 12,
+        "intervalMs": 5000,
+        "timeoutMs": 5000
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.runtime/
+.bundle/
+vendor/
+*.p8
+*.p12
+*.mobileprovision
+*.ipa
+*.xcarchive/
+account.json
+signing-secrets.json
+review-credentials.json
+testers.json
+fastlane/report.xml
+fastlane/README.md

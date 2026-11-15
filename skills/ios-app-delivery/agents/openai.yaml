@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS App 上架"
+  short_description: "使用 StackOnward CLI 1.10.0 准备、检查、打包、提审和发布 iOS App"
+  default_prompt: "MUST use $ios-app-delivery to guide an iOS release with StackOnward CLI 1.10.0 and distinguish CLI operations from manual tasks."

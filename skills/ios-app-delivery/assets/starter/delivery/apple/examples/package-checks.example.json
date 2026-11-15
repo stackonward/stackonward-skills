@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "package": {
+      "requiredPurposeStrings": ["NSCameraUsageDescription"],
+      "locales": ["en", "zh-Hans"],
+      "minimumOSVersion": "16.0",
+      "deviceFamilies": [1, 2],
+      "privacyManifestRequired": true
+    }
+  }
+}

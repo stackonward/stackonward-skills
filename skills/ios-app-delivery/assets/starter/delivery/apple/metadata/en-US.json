@@ -1,0 +1,11 @@
+{
+  "name": "Your App",
+  "subtitle": "Your actual app purpose",
+  "description": "Describe the actual app features, requirements and paid options.",
+  "keywords": "your,relevant,keywords",
+  "supportUrl": "https://app.example.com/support",
+  "privacyPolicyUrl": "https://app.example.com/privacy",
+  "marketingUrl": "https://app.example.com",
+  "privacyChoicesUrl": "https://app.example.com/privacy/choices",
+  "promotionalText": "Share a verified app benefit or current announcement."
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "bundleId": "com.example.yourapp",
+    "name": "Your App",
+    "platform": "IOS",
+    "sku": "your-app-ios",
+    "primaryLocale": "en-US"
+  },
+  "metadata": {
+    "localizations": [{ "locale": "en-US", "file": "metadata/en-US.json" }]
+  },
+  "release": {
+    "version": "1.0",
+    "buildNumber": "1",
+    "mode": "MANUAL",
+    "reviewItems": { "includeApp": true, "productIds": [], "groupKeys": [] }
+  }
+}

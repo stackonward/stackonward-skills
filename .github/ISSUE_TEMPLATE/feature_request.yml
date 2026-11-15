@@ -1,0 +1,17 @@
+name: 改进建议
+description: 提议新的交付场景、技能或示例。
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你要完成的任务
+      description: 说明项目类型、使用阶段和目前遇到的困难。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 希望获得的结果
+      description: 写明哪些步骤希望自动化，哪些需要保留为人工操作。
+    validations:
+      required: true

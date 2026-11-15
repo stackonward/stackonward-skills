@@ -1,0 +1,7 @@
+{
+  "teamId": "",
+  "keyId": "",
+  "issuerId": "",
+  "privateKeyPath": "AuthKey.p8",
+  "signingSecretsFile": "signing-secrets.json"
+}

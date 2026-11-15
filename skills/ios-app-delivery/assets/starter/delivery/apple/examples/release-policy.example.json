@@ -1,0 +1,11 @@
+{
+  "release": {
+    "version": "1.1",
+    "buildNumber": "2",
+    "mode": "SCHEDULED",
+    "earliestReleaseDate": "2099-01-01T09:00:00Z",
+    "reviewItems": { "includeApp": true, "productIds": [], "groupKeys": [] },
+    "firstPurchaseTypes": [],
+    "phasedRelease": true
+  }
+}

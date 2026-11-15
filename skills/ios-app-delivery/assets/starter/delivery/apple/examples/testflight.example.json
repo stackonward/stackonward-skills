@@ -1,0 +1,12 @@
+{
+  "testflight": {
+    "groupIds": ["EXACT_BETA_GROUP_ID"],
+    "betaDescription": "Describe what this beta is ready to test.",
+    "feedbackEmail": "feedback@example.com",
+    "whatsNew": "List the flows to test in this build.",
+    "locale": "en-US",
+    "external": false,
+    "notifyTesters": false,
+    "invitationsRef": "/absolute/path/to/private/testers.json"
+  }
+}

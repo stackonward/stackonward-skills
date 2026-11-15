@@ -1,0 +1,23 @@
+{
+  "assets": {
+    "icon": "artwork/icon.png",
+    "iconVariants": { "dark": "artwork/icon-dark.png", "tinted": "artwork/icon-tinted.png" },
+    "screenshots": [
+      { "file": "screenshots/en-US/iphone-01.png", "locale": "en-US", "displayType": "APP_IPHONE_67", "order": 0 }
+    ],
+    "previews": [
+      {
+        "file": "previews/en-US/iphone-01.mov",
+        "locale": "en-US",
+        "previewType": "IPHONE_67",
+        "previewFrameTimeCode": "00:00:03:00",
+        "order": 0
+      }
+    ],
+    "creatives": [
+      { "file": "artwork/en-US/header.png", "locale": "en-US", "placements": ["header"] },
+      { "file": "artwork/en-US/search.png", "locale": "en-US", "placements": ["searchResults"] }
+    ],
+    "removeOwnedIds": []
+  }
+}

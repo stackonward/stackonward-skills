@@ -1,0 +1,18 @@
+{
+  "accessibility": {
+    "declarations": [
+      {
+        "deviceFamily": "IPHONE",
+        "supportsVoiceover": false,
+        "supportsVoiceControl": false,
+        "supportsLargerText": false,
+        "supportsSufficientContrast": false,
+        "supportsDarkInterface": false,
+        "supportsDifferentiateWithoutColorAlone": false,
+        "supportsReducedMotion": false,
+        "supportsCaptions": false,
+        "supportsAudioDescriptions": false
+      }
+    ]
+  }
+}

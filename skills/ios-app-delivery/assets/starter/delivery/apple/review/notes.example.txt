@@ -1,0 +1,10 @@
+App Review instructions
+
+Access and navigation
+[Explain how to reach each feature under review. Reference the private demo account filed in App Store Connect if sign-in is required.]
+
+In-app purchases, subscriptions, or paid features
+[Give the path to the purchase and restore flows, when applicable.]
+
+Prerequisites
+[List any device, hardware, location, or content needed to reproduce the review steps.]

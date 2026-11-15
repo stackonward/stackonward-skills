@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "bundleId": "com.example.yourapp",
+    "name": "Your App",
+    "platform": "IOS",
+    "sku": "your-app-ios",
+    "primaryLocale": "en-US"
+  },
+  "capabilities": {},
+  "metadata": {
+    "localizations": [
+      {
+        "locale": "en-US",
+        "file": "metadata/en-US.json"
+      }
+    ],
+    "primaryCategory": "UTILITIES",
+    "copyright": "2026 Your Company"
+  },
+  "release": {
+    "version": "1.0",
+    "buildNumber": "1",
+    "mode": "MANUAL",
+    "firstPurchaseTypes": [],
+    "reviewItems": {
+      "includeApp": true,
+      "productIds": [],
+      "groupKeys": []
+    }
+  },
+  "signing": {
+    "storageUrl": "https://example.com/private-signing.git",
+    "profileType": "appstore",
+    "bundleIds": [
+      "com.example.yourapp"
+    ],
+    "readonly": true
+  },
+  "build": {
+    "kind": "xcode",
+    "projectRoot": "../..",
+    "projectPath": "Example.xcodeproj",
+    "targetName": "Example",
+    "scheme": "Example",
+    "configuration": "Release",
+    "additionalTargets": [],
+    "xcodeVersion": "26.1",
+    "infoPlistPath": "Example/Info.plist",
+    "entitlementsPath": "Example/Example.entitlements",
+    "iconSetPath": "Example/Assets.xcassets/AppIcon.appiconset",
+    "outputPath": "build/apple"
+  }
+}
